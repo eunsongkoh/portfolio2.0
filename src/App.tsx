@@ -1,15 +1,13 @@
-// import { HeroUIProvider } from "@heroui/react";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import "./App.css";
+import Footer from "./components/Footer";
 import About from "./pages/About";
-import Home from "./pages/Home";
-import { motion, useScroll, useSpring } from "framer-motion";
+import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
 import Introduction from "./pages/Introduction";
 import Multimedia from "./pages/Multimedia";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 function App() {
   const { scrollYProgress } = useScroll();
